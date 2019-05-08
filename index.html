@@ -4,19 +4,23 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Harrison Ngo</title>
+     <!-- Bootstrap core CSS -->
+     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+ 
    <link rel="stylesheet" href="style.css">
    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
   <div class="pic_1">
     <div class="text">
-      <span class="border">
+      <span class="name">
         Hi, my name is Harrison Ngo
       </span>
     </div>
   </div>
 
-  <section class="section section-bio">
+  <div class="section section-bio">
     <h2>About me</h2>
     <p>
       Welcome to my website! I am currently attending
@@ -41,9 +45,82 @@
 " target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
     </ul>
   </section>
-</section>
+</div>
+
+  <!-- Page Content -->
+  <div class="container">
+
+    <header class="jumbotron my-4">
+      <h1 class="display-3">Personal projects</h1>
+    </header>
+
+    <!-- Page Features -->
+    <div class="row text-center">
+
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card h-100">
+          <img class="card-img-top" src="Linx.png">
+          <div class="card-body">
+            <h4 class="card-title">Linx</h4>
+            <p class="card-text">Learn a new language by watching Netflix</p>
+          </div>
+          <div class="card-footer">
+            <a href="https://github.com/LinxSolutions" class="btn btn-primary">Find out more!</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card h-100">
+          <img class="card-img-top" src="ListenUp.png" alt="">
+          <div class="card-body">
+            <h4 class="card-title">ListenUp</h4>
+            <p class="card-text">Discussion board web app that allows users to post arguments and debate on a certain topic. The app is deployed on Heroku.</p>
+          </div>
+          <div class="card-footer">
+            <a href="https://github.com/NgoHarrison/ListenUp" class="btn btn-primary">Find out more!</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card h-100">
+          <img class="card-img-top" src="WeatherApp.png" alt="">
+          <div class="card-body">
+            <h4 class="card-title">Weather App</h4>
+            <p class="card-text">Weather app that tells you the weather of the location you input.</p>
+          </div>
+          <div class="card-footer">
+            <a href="https://github.com/NgoHarrison/Weather_App" class="btn btn-primary">Find Out More!</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card h-100">
+          <img class="card-img-top" src="HWA.png" alt="">
+          <div class="card-body">
+            <h4 class="card-title">
+              Handwritten-Written Digits and Image Analysis</h4>
+            <p class="card-text">Analyze hand written digits to predict what number is written using multilayer perceptron.</p>
+          </div>
+          <div class="card-footer">
+            <a href="https://github.com/NgoHarrison/MachineLearningSpring2019" class="btn btn-primary">Find Out More!</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <!-- /.row -->
+
+  </div>
+  <!-- /.container -->
 
 
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
   </body>
 </html>
