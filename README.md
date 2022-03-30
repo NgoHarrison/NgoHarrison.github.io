@@ -2,3 +2,6 @@ Personal porfolio website. This website was created using Vantajs, Bootstrap and
 
 Link to bootstrap: 
 * https://startbootstrap.com
+
+Link to vantajs: 
+* www.vantajs.com
