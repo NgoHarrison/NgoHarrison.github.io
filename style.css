@@ -22,7 +22,7 @@ nav li {
 
 nav li a {
   transition: 0.5s color ease-in-out;
-  color: #056674;
+  color: #000000;
 }
 
 .hoverable {
@@ -30,7 +30,7 @@ nav li a {
   backface-visibility: hidden;
   vertical-align: middle;
   position: relative;
-  color: #9fdabb;
+  color: #000000;
   box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   transform: translateZ(0);
   transition-duration: 0.3s;
@@ -121,7 +121,7 @@ a.navlink:hover {
 .masthead .masthead-heading {
   font-size: 2.75rem;
   line-height: 2.75rem;
-  color: #d36f6f !important;
+  color: #000000 !important;
 }
 .masthead .masthead-subheading {
   font-size: 1.25rem;
@@ -145,26 +145,12 @@ a.navlink:hover {
   }
 }
 
-.resume-button {
-  background-color: #d36f6f !important;
-}
-
-.my-primary {
-  background-color: #0076be;
-}
-
-.my-secondary {
-  background-color: #0076be;
-}
-
 .card-footer {
-  background-color: #ffffff;
   border-top: none;
 }
 
 .more-button {
   color: #fff;
-  background-color: #d36f6f !important;
 }
 
 .icon-link {
